@@ -1,0 +1,218 @@
+:root{
+    --main-color: #0f372d;
+    --secondary-color: #ffce00;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+section{
+    margin-top: 70px;
+}
+
+.section-konten{
+    padding-top: 120px;
+}
+
+.bg-main-color{
+    background-color: var(--main-color);
+}
+
+.icon{
+    width: 15px;
+}
+
+.icon-medium{
+    width: 20px;
+}
+
+.icon-kontak{
+    width: 25px;
+    margin-right: .2rem;
+}
+
+.white-bg{
+    padding: .4rem;
+}
+
+.logo{
+    width: 70px; 
+    padding: 10px 0px;
+}
+
+.brand{
+    display: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.link{
+    /* font-size: 1.rem; */
+    color:white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: var(--secondary-color);
+}
+
+.hero-section{
+    background-image: url("./asset/img/bg-hero.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}   
+.subtagline{
+    color: white;
+    mix-blend-mode: difference;
+
+}
+
+.bank-card{
+    border: 2px solid;
+    border-radius: 1rem;
+}
+
+/* BUTTON */
+
+.btn-container{
+    display: flex;
+    column-gap: 2.5rem;
+}
+
+.cta{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1.2rem;
+}
+
+.btn-1{
+    color: black;
+    background-color: var(--secondary-color);
+    border: 1px solid rgb(255, 235, 59);
+    cursor: pointer;
+}
+
+.btn-2{
+    color: white;
+    background-color: var(--main-color);
+    border: 1px solid rgb(0, 133, 69);
+}
+
+.btn-1:hover{
+    background-color: orange;
+    border-color: #ffce00;
+    box-shadow: 0 0 18px rgb(212, 175, 55, 0.8);
+}
+
+.btn-2:hover{
+    background-color: #07261d;
+    border-color: var(--main-color);
+    box-shadow: 0 0 18px rgb(9, 191, 99, 0.5);
+}
+.btn-link{
+    color: black;
+    text-decoration: none;
+}
+
+.salin-btn{
+    background-color: var(--main-color);
+    padding: .6rem .8rem;
+    border: 1px solid rgb(19, 132, 21);
+    border-radius: 1rem;
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.salin-btn:hover{
+    background-color: #246756;
+    box-shadow: 0 0 8px green
+}
+
+/* TEXT */
+
+.text-yellow{
+    color: var(--secondary-color);
+}
+.text-green{
+    color: var(--main-color);
+}
+.text-gray{
+    color: gainsboro;
+}
+
+.text-black{
+    color: black;
+}
+.marking{
+    background-color: #a7f3d0;
+    border-radius: .6rem;
+    padding: .2rem .8rem;
+}
+.sub-text{
+    font-size: small;
+}
+.artikel {
+    font-size: 1.5rem;
+}
+.text-justify{
+     text-align: justify;
+}
+.list-item{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* IMG */
+
+.qr-img{
+    width: 150px;
+    border-radius: 0.8rem;
+}
+
+.hide{
+    display: none;
+}
+
+.img-tentang{
+    width: 465px;
+    height: 465px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+
+}   
+
+.carousel-caption{
+    position: relative;
+    left: 0;
+    bottom:0 ;
+    height: 100px;
+}
+
+.carousel-img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.carousel-indicators{
+    position: relative;
+    bottom: 25%;
+}
+
+.attribution{
+    color: gray;
+}
