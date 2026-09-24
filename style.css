@@ -42,7 +42,7 @@ section{
 }
 
 .brand{
-    display: none;
+    /* display: none; */
     text-decoration: none;
     color: white;
     font-weight: bolder;
@@ -61,7 +61,7 @@ section{
 
 .hero-section{
     background-image: url("./asset/img/bg-hero.jpg");
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
