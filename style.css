@@ -56,7 +56,7 @@ body{
 }
 
 .hero-section{
-    background-image: url("./asset/img/bg-hero.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url("./asset/img/hero-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -211,4 +211,19 @@ body{
 
 .attribution{
     color: gray;
+}
+
+.underline-bg{
+    background-color: var(--main-color);
+    width: 60px;
+    border-radius: 1rem;
+}
+
+.underline{
+    margin: 0;
+    padding: 0;
+    border-radius: 1rem;
+    width: 50px;
+    height: 10px;
+    background-color: #ffce00;
 }
