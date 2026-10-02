@@ -55,7 +55,7 @@
 <!-- HEADER END -->
     <main>
         <!-- BERANDA START -->
-        <section id="beranda mt-5" >
+        <section id="beranda" >
             <div class="hero-section">
                 <div class="container d-flex flex-column justify-content-center justify-content-sm-start">
                     <div class="text">
@@ -117,7 +117,7 @@ Makam Eyang Syarif berada di belakang Masjid Syarif. Di lokasi tersebut juga ter
 
 
         <!-- KEGIATAN START-->
-        <section class="section-konten pb-5 " id="kegiatan">
+        <!-- <section class="section-konten pb-5 " id="kegiatan">
             <div class="container-fluid py-4 bg-main-color">
                 <div class="container">
                     <div>
@@ -172,8 +172,128 @@ Makam Eyang Syarif berada di belakang Masjid Syarif. Di lokasi tersebut juga ter
                 </div>
             </div>    
         </div>
-    </section>
+    </section> -->
     <!-- KEGIATAN END-->
+
+
+    <!-- KEGIATAN 2.0 -->
+
+    <section class="section-konten bg-main-color">
+        <div class="container">
+            <div>
+                <h2 class="text-yellow h2 text-start fw-bold mt-4" >Kegiatan</h2>
+                <div class="underline mb-4"></div>
+            </div>
+
+            <div class="mb-4 d-flex justify-content-center">
+                <div class="toggle-container text-center">
+                    <a class="toggle-btn fs-6 fw-semibold" id="btnPemuda" onclick="pemudaActive()">Kegiatan Remaja</a> |
+                    <a class="toggle-btn fs-6 fw-semibold" id="btnOrangTua" onclick="orangTuaActive()">Kegiatan Umum</a>
+                </div>
+            </div>
+
+            <div class="p-2 carousel remaja active" id="carouselPemuda">
+                <div class="mb-3">
+                    <h3 class="fw-bold text-center text-white">Kegiatan Remaja</h3>
+                </div>
+
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Kegiatan Remaja 1</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Kegiatan Remaja 2</h5>
+                                <p class="card-text">This is a short card.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Kegiatan Remaja 3</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Kegiatan Remaja 4</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+
+            <div class="p-2 carousel umum" id="carouselOrangTua">
+                <div class="mb-3">
+                    <h3 class="fw-bold text-center text-white">Kegiatan Umum</h3>
+                </div>
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kegiatan umum 1</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kegiatan umum 2</h5>
+                            <p class="card-text">This is a short card.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kegiatan umum 3</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kegiatan umum 4</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- KEGIATAN 2.0  END-->
+
+
     
     
         <!-- DONASI START -->
@@ -226,14 +346,25 @@ Makam Eyang Syarif berada di belakang Masjid Syarif. Di lokasi tersebut juga ter
         </section>
         <!-- DONASI END -->
 
+        <!-- ALBUM START-->
+         <section class="section-konten">
+            <div class="container">
+                <div>
+                    <h2 class="fw-bold" >Album</h2>
+                    <div class="underline mb-4"></div>
+                </div>
+
+                <p class="text-center">Comming soon</p>
+            </div>
+         </section>
+        <!-- ALBUM END-->
+
         <!-- KONTAK START-->
          <section class="section-konten mb-5 pb-5" id="kontak">
             <div class="container">
                 <div>
                     <h2 class="fw-bold">Kontak</h2>
-                    <div>
-                        <div class="underline mb-4"></div>
-                    </div>
+                    <div class="underline mb-4"></div>
                 </div>
 
                 <p>Masjid adalah tempat kita berkumpul, berbagi, dan tumbuh bersama. Mari terus jalin komunikasi dan silaturahmi untuk membangun kebersamaan serta menghadirkan manfaat yang lebih luas bagi umat.</p>
@@ -252,6 +383,8 @@ Makam Eyang Syarif berada di belakang Masjid Syarif. Di lokasi tersebut juga ter
             </div>
          </section>
         <!-- KONTAK END-->
+
+
 
     </main>
 
@@ -319,24 +452,7 @@ Makam Eyang Syarif berada di belakang Masjid Syarif. Di lokasi tersebut juga ter
     </footer>
 
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script>
-
-        function salinRekening(button, data){
-            navigator.clipboard.writeText(data).then(()=>{
-                const icon = document.getElementById('salinIcon');
-                icon.classList.add('hide');
-
-                const textBtn = button.innerText;
-                button.innerText = "✓ Tersalin";
-
-                setTimeout(()=>{
-                    icon.classList.remove('hide');
-                    button.innerText = textBtn;
-                },3000);
-            });
-        }
-
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
 

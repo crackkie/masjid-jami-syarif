@@ -9,6 +9,7 @@ body{
 
 .section-konten{
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .bg-main-color{
@@ -225,5 +226,44 @@ body{
     border-radius: 1rem;
     width: 50px;
     height: 10px;
+    background-color: #ffce00;
+}
+
+.toggle-container{
+    display: inline;
+    background-color: #ffce00;
+    border-radius: 1rem;
+    padding: .4rem 1rem;
+}
+
+.toggle-btn{
+    cursor: pointer;
+    text-decoration: none;
+    color: #07261d;
+}
+
+.toggle-btn:hover{
+    color: white;
+}
+/* 
+.carousel{
+    height: 100vh;
+} */
+
+.remaja{
+    display: none;
+    /* background-color: red; */
+}
+
+.umum{
+    display: none;
+    /* background-color: green; */
+}
+
+.active{
+    display: block;
+}
+
+.card:hover{
     background-color: #ffce00;
 }
