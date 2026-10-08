@@ -1,5 +1,5 @@
 let carouselPemuda = document.getElementById("carouselPemuda");
-let carouselOrangTua = document.getElementById("carouselOrangTua");
+let carouselUmum = document.getElementById("carouselUmum");
 
 
 function salinRekening(button, data){
@@ -19,12 +19,11 @@ function salinRekening(button, data){
 
 
 function pemudaActive(){
-    carouselOrangTua.classList.remove("active");
+    carouselUmum.classList.remove("active");
     carouselPemuda.classList.add("active");
-    console.info("Pemuda aktiv")
 }
 
 function orangTuaActive(){
     carouselPemuda.classList.remove("active");
-    carouselOrangTua.classList.add("active");
+    carouselUmum.classList.add("active");
 }

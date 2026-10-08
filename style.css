@@ -16,6 +16,10 @@ body{
     background-color: var(--main-color);
 }
 
+.bg-yellow{
+    background-color: #ffce00;
+}
+
 .icon{
     width: 15px;
 }
@@ -47,7 +51,6 @@ body{
 }
 
 .link{
-    /* font-size: 1.rem; */
     color:white;
     text-decoration: none;
 }
@@ -78,6 +81,22 @@ body{
     border-radius: 1rem;
 }
 
+.layanan-card{
+    height: 280px;
+    padding: 1rem;
+    border-radius: .6rem;
+}
+
+.link-card{
+    text-decoration: none;
+    color: black;
+}
+
+.link-card:hover .layanan-card{
+    background-color: var(--secondary-color);
+    transition: background-color  1s linear;
+}
+
 /* BUTTON */
 
 .btn-container{
@@ -90,6 +109,7 @@ body{
     padding: 0.5rem 1rem;
     border-radius: 1.2rem;
 }
+
 
 .btn-1{
     color: black;
@@ -136,6 +156,18 @@ body{
 .salin-btn:hover{
     background-color: #246756;
     box-shadow: 0 0 8px green
+}
+
+.btn-layanan{
+    text-decoration: none;
+    background-color: var(--main-color);
+    border-radius: .4rem;
+    padding: .4rem 2rem;
+    color: white;
+}
+
+.btn-layanan:hover{
+    background-color: #246756;
 }
 
 /* TEXT */
@@ -265,5 +297,47 @@ body{
 }
 
 .card:hover{
-    background-color: #ffce00;
+    background-color: var(--secondary-color);
+    transition: background-color  .5s linear;}
+
+.shadow-card{
+    box-shadow:  0px 0px 10px 5px rgba(0, 0, 0, 0.1)
+}
+    
+.line{
+    height: 5px;
+    background-color: var(--secondary-color);
+}
+
+/* Gallery */
+/* .gallery-item{
+    width: 180px;
+} */
+
+.gallery-item:hover .img-thumbnail{
+    mask-image: linear-gradient(rgb(0,0,0,0.5));
+}
+
+
+
+
+/* layanan */
+.bg-dasbord{
+    background-image: linear-gradient( rgb(0,0,0,0.6)), url(/asset/img/bg-dasbord.jpeg);
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.title-decoration{
+    width: 10px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: var(--secondary-color);
+}
+
+.btn-kembali{
+    color: black;
+    text-decoration: none;
 }
