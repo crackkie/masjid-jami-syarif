@@ -60,7 +60,7 @@ body{
 }
 
 .hero-section{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url("./asset/img/hero-background.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url("asset/img/hero-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -277,10 +277,6 @@ body{
 .toggle-btn:hover{
     color: white;
 }
-/* 
-.carousel{
-    height: 100vh;
-} */
 
 .remaja{
     display: none;
@@ -319,11 +315,9 @@ body{
 }
 
 
-
-
 /* layanan */
 .bg-dasbord{
-    background-image: linear-gradient( rgb(0,0,0,0.6)), url(/asset/img/bg-dasbord.jpeg);
+    background-image: linear-gradient( rgb(0,0,0,0.6)), url("asset/img/bg-dasbord.jpeg");
     width: 100%;
     height: 40vh;
     background-position: center;
