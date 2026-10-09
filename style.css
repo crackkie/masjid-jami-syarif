@@ -310,9 +310,9 @@ body{
 }
 
 /* Gallery */
-/* .gallery-item{
+.gallery-item{
     width: 180px;
-} */
+} 
 
 .gallery-item:hover .img-thumbnail{
     mask-image: linear-gradient(rgb(0,0,0,0.5));
