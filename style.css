@@ -277,10 +277,6 @@ body{
 .toggle-btn:hover{
     color: white;
 }
-/* 
-.carousel{
-    height: 100vh;
-} */
 
 .remaja{
     display: none;
@@ -317,8 +313,6 @@ body{
 .gallery-item:hover .img-thumbnail{
     mask-image: linear-gradient(rgb(0,0,0,0.5));
 }
-
-
 
 
 /* layanan */
