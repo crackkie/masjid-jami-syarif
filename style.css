@@ -8,12 +8,23 @@ body{
 }
 
 .section-konten{
-    padding-top: 70px;
-    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 70px 0;
 }
 
 .bg-main-color{
     background-color: var(--main-color);
+}
+
+.main-bg{
+    background: linear-gradient(90deg,rgba(53, 117, 85, 1) 0%, rgba(15, 55, 45, 1) 71%);
+}
+
+.border-gradient{
+    background-color: linear-gradient(90deg,rgba(15, 55, 45, 1) 0%, rgba(53, 117, 85, 1) 71%);
 }
 
 .bg-yellow{
@@ -60,7 +71,7 @@ body{
 }
 
 .hero-section{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url("asset/img/hero-background.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url("/asset/img/hero-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,7 +93,7 @@ body{
 }
 
 .layanan-card{
-    height: 280px;
+    height: 320px;
     padding: 1rem;
     border-radius: .6rem;
 }
@@ -159,6 +170,7 @@ body{
 }
 
 .btn-layanan{
+    width: 100%;
     text-decoration: none;
     background-color: var(--main-color);
     border-radius: .4rem;
@@ -179,7 +191,7 @@ body{
     color: var(--main-color);
 }
 .text-gray{
-    color: gainsboro;
+    color: rgb(94, 94, 94);
 }
 
 .text-black{
@@ -225,22 +237,6 @@ body{
 
 }   
 
-.carousel-caption{
-    position: relative;
-    left: 0;
-    bottom:0 ;
-    height: 100px;
-}
-
-.carousel-img{
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-.carousel-indicators{
-    position: relative;
-    bottom: 25%;
-}
 
 .attribution{
     color: gray;
@@ -307,7 +303,7 @@ body{
 
 /* Gallery */
 .gallery-item{
-    width: 180px;
+    width: 175px;
 } 
 
 .gallery-item:hover .img-thumbnail{
@@ -317,7 +313,7 @@ body{
 
 /* layanan */
 .bg-dasbord{
-    background-image: linear-gradient( rgb(0,0,0,0.6)), url("asset/img/bg-dasbord.jpeg");
+    background-image: linear-gradient( rgb(0,0,0,0.6)), url("/asset/img/bg-dasbord.jpeg");
     width: 100%;
     height: 40vh;
     background-position: center;
@@ -334,4 +330,85 @@ body{
 .btn-kembali{
     color: black;
     text-decoration: none;
+}
+
+.more-btn{
+    background-color: var(--secondary-color);
+    padding: .6rem 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    border-top: 1px solid yellow;
+    border-left: 1px solid yellow ;
+    border-bottom:1px solid orange ;
+    border-right:1px solid orange;
+}
+
+.more-btn:hover{
+    background-color: orange;
+}
+
+.card-kegiatan{
+    width: 100%;;
+    height: 160px;
+    border: 2px solid white;
+    border-radius: .4rem;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.img-wraper{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: .4rem;
+    
+}
+.overflow-y{
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.card-img{
+    border-radius: .4rem;
+    width: auto;
+    height: 100%;
+}
+
+.card-text{
+    width: 60%;
+    height: 100%;
+}
+
+.time-card{
+    font-size: 10px;
+    background-color: gray;
+    padding: 2px 4px;
+    border-radius: 6px;
+    color: white;
+}
+
+.attribution-wraper{
+    display: none;
+    border: 2px solid white;
+    border-radius: .4rem;
+    padding: .2rem .2rem;
+}
+
+#atributionBtn{
+    background-color: white;
+    color: black;
+    padding: .2rem  .6rem;
+    border-radius: .2rem;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#atributionBtn:hover{
+    background-color: gray;
+}
+
+.show-attribution{
+    display: block;
 }

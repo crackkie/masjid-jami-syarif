@@ -21,9 +21,15 @@ function salinRekening(button, data){
 function pemudaActive(){
     carouselUmum.classList.remove("active");
     carouselPemuda.classList.add("active");
+    
 }
 
-function orangTuaActive(){
+function umumActive(){
     carouselPemuda.classList.remove("active");
     carouselUmum.classList.add("active");
 }
+
+function attributionTogle(){
+    let attibution = document.getElementById("attributionWraper");
+    attibution.classList.toggle("show-attribution");
+};
