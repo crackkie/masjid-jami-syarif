@@ -330,6 +330,11 @@ body{
 .btn-kembali{
     color: black;
     text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-kembali:hover{
+    text-decoration: underline;
 }
 
 .more-btn{
